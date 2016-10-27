@@ -1,1 +1,1 @@
-# bmstu_projects2
+# Calculator
