@@ -32,13 +32,3 @@ double squareroot(double a)
                 i = i + 0.000001;	
         return i;
 }
-double absolut(double a)
-{	
-        return ((a >= 0) ? a : -a);
-}
-double roundp(double a)
-{	
-        if (a < 0)	
-                a = -absolut(a);	
-        return a;
-}
