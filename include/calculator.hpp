@@ -4,5 +4,3 @@ double multiplication(double a, double b);
 double quotient(double a, double b);
 double power(double a, double b);
 double squareroot(double a);
-double absolut(double a);
-double roundp(double a);
