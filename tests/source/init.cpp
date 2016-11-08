@@ -2,8 +2,8 @@
 #include <catch.hpp>
 
 SCENARIO("calculator sumary", "[sumary]") {
-    float a = 16.0;
-    float b = 8.0;
+    double a = 16.0;
+    double b = 8.0;
     int c = 3;
     
     double rv = sumary( a, b );
@@ -13,6 +13,7 @@ SCENARIO("calculator sumary", "[sumary]") {
 SCENARIO("calculator differense", "[differense]") {
     double a = 16.0;
     double b = 8.0;
+    int c = 3;
     
     double rv = differense( a, b );
     
@@ -21,6 +22,7 @@ SCENARIO("calculator differense", "[differense]") {
 SCENARIO("calculator multiplication", "[multiplication]") {
     double a = 16.0;
     double b = 8.0;
+    int c = 3;
     
     double rv = multiplication( a, b );
     
@@ -29,6 +31,7 @@ SCENARIO("calculator multiplication", "[multiplication]") {
 SCENARIO("calculator quotient", "[quotient]") {
     double a = 16.0;
     double b = 8.0;
+    int c = 3;	
     
     double rv = quotient( a, b );
     
@@ -37,15 +40,17 @@ SCENARIO("calculator quotient", "[quotient]") {
 SCENARIO("calculator power", "[power]") {
     double a = 16.0;
     double b = 8.0;
-    
-    double rv = power( a );
+    int c = 3;
+	
+    double rv = power( a, c );
     
 	REQUIRE( rv == 4096.0 );
 }
 SCENARIO("calculator squareroot", "[squareroot]") {
     double a = 16.0;
     double b = 8.0;
-    
+    int c = 3;
+	
     double rv = squareroot( a );
     
 	REQUIRE( rv == 4.0 );
