@@ -9,8 +9,7 @@ int main()
 	double a, b;	
 	int c;	
         cin >> a;		
-        cin >> b;	
-        cout << "c=";	
+        cin >> b;	       	
         cin >> c;	
         cout << roundp(sumary(a, b)) << endl;	
         cout << roundp(differense(a, b)) << endl;	
