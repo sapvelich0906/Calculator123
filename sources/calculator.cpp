@@ -14,16 +14,16 @@ double quotient(double a, double b)
 {	
         return a / b;
 }
-double power(double a, double b)
+double power(double a, int c)
 {	
-        double c = 1;	
-        if (b>0)		
-                for (int i = 0; i < b; i++)		
-                        c = c*a;	
-        if (b<0)	
-                for (int i = 0; i < (-b); i++)			
-                        c = c / a;	
-        return c;
+        double a1 = 1;	
+        if (c>0)		
+                for (int i = 0; i < c; i++)		
+                        a1 = a1*a;	
+        if (c<0)	
+                for (int i = 0; i < (-c); i++)			
+                        a1 = a1 / a;
+        return a1;
 }
 double squareroot(double a)
 {	
