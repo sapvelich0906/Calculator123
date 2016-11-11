@@ -20,7 +20,7 @@ int main()
                 cout << roundp(quotient(a, b)) << endl;	
         cout << roundp(power(a, c)) << endl;	
         if (a >= 0)		
-                cout << setprecision(5) << squareroot(a) << endl;	
+                cout << squareroot(a) << endl;	
         else		
                 cout << "koren izvlech nelzya" << endl;	
 return 0;
