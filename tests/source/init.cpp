@@ -76,6 +76,7 @@ SCENARIO("calculator power", "[power]") {
     double a = 16.0;
     double b = 8.0;
     int c = 3;	
+    
     double rv = power( a, c );
     	
 REQUIRE( rv == 4096.0 );
@@ -84,6 +85,7 @@ SCENARIO("calculator squareroot", "[squareroot]") {
     double a = 16.0;
     double b = 8.0;
     int c = 3;	
+    
     double rv = squareroot( a );
     	
 REQUIRE( rv == 4.0 );
