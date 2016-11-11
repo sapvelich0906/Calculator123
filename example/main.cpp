@@ -14,7 +14,7 @@ int main()
         cout << roundp(sumary(a, b)) << endl;	
         cout << roundp(differense(a, b)) << endl;	
         cout << roundp(multiplication(a, b)) << endl;
-	if (b=0)
+	if (b==0)
 		cout << "Na nol delit nelzya" << endl;
 	else	
                 cout << roundp(quotient(a, b)) << endl;	
