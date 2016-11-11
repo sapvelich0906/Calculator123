@@ -49,41 +49,6 @@ SCENARIO("calculator power", "[power]") {
 SCENARIO("calculator squareroot", "[squareroot]") {
     double a = 16.0;
     double b = 8.0;
-    int c = 3;
-	
-    double rv = squareroot( a );
-    
-	REQUIRE( rv == .0 );}
-SCENARIO("calculator multiplication", "[multiplication]") {
-    double a = 16.0;
-    double b = 8.0;
-    int c = 3;
-    
-    double rv = multiplication( a, b );
-    	
-REQUIRE( rv == 128.0 );
-}
-SCENARIO("calculator quotient", "[quotient]") {
-    double a = 16.0;
-    double b = 8.0;
-    int c = 3;	
-    
-    double rv = quotient( a, b );
-    	
-REQUIRE( rv == 2.0 );
-}
-SCENARIO("calculator power", "[power]") {
-    double a = 16.0;
-    double b = 8.0;
-    int c = 3;	
-    
-    double rv = power( a, c );
-    	
-REQUIRE( rv == 4096.0 );
-}
-SCENARIO("calculator squareroot", "[squareroot]") {
-    double a = 16.0;
-    double b = 8.0;
     int c = 3;	
     
     double rv = squareroot( a );
