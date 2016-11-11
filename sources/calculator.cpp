@@ -29,9 +29,7 @@ double squareroot(double a)
 {	
         double i = 0;	
         while (i*i < a)		
-                i = i + 0.0000001;
-        i = i/100000;
-        i = i*100000;
+                i = i + 0.000000001;
         return i;
 }
 double absolut(double a)
