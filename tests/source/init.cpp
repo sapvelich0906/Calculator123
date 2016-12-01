@@ -33,7 +33,7 @@ SCENARIO("calculator quotient", "[quotient]") {
     double b = 8.0;
     int c = 3;	
     
-    double rv = quotient( a, b );
+    double rv = *quotient( a, b );
     
 	REQUIRE( rv == 2.0 );
 }
