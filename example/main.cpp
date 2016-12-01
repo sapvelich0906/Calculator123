@@ -20,7 +20,7 @@ int main()
 		cout << roundp(quotient(a, b)) << endl;	
         cout << roundp(power(a, c)) << endl;	
 	if (a>=0)
-		cout << " Square root of a " << squareroot(a) << endl;
+		cout << squareroot(a) << endl;
 	else
 		cout << "Error! Square root of a negative number" << endl;	       	
 return 0;
