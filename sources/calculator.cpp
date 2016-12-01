@@ -10,11 +10,14 @@ double multiplication(double a, double b)
 {	
         return a * b;
 }
-double quotient(double a, double b)
+double *quotient(double a, double b)
 {	
 	if (b!=0) 
-         return a / b;
-	else return nullptr;
+	{ 
+         double *q = new double;
+	*q = a / b;
+	return q;	
+else return nullptr;
 }
 double power(double a, int c)
 {	
@@ -28,7 +31,7 @@ double power(double a, int c)
         return a1;
 }
 double squareroot(double a)
-{ if (a>=0) {
+{ 
 	double xn = 1.0;  
 	double xn1 = 2.0;
 
@@ -43,11 +46,7 @@ double squareroot(double a)
 	}
 		else if ( a == 1 ) xn1 = 1;
 			else if ( a == 0 ) xn1 = 0;
-
-
 	return xn1;
-}
- else return nullptr;     
 }
 double absolut(double a)
 {	
