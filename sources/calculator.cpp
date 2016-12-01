@@ -10,15 +10,9 @@ double multiplication(double a, double b)
 {	
         return a * b;
 }
-double *quotient(double a, double b)
+double quotient(double a, double b)
 {	
-	if (b!=0) 
-	{ 
-         double *q = new double;
-	*q = a / b;
-	}
-	return q;	
-else return nullptr;
+	return a / b;	
 }
 double power(double a, int c)
 {	
