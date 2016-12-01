@@ -14,7 +14,7 @@ double quotient(double a, double b)
 {	
 	if (b!=0) 
          return a / b;
-	else return nullstr;
+	else return nullptr;
 }
 double power(double a, int c)
 {	
@@ -47,7 +47,7 @@ double squareroot(double a)
 
 	return xn1;
 }
- else return nullstr;     
+ else return nullptr;     
 }
 double absolut(double a)
 {	
