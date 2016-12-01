@@ -16,6 +16,7 @@ double *quotient(double a, double b)
 	{ 
          double *q = new double;
 	*q = a / b;
+	}
 	return q;	
 else return nullptr;
 }
