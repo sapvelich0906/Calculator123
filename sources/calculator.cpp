@@ -12,7 +12,10 @@ double multiplication(double a, double b)
 }
 double quotient(double a, double b)
 {	
-	return a / b;	
+	if (b!=0)
+		return a / b;
+	else 
+		return false;
 }
 double power(double a, int c)
 {	
