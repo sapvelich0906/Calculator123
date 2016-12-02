@@ -30,6 +30,8 @@ double power(double a, int c)
 }
 double squareroot(double a)
 { 
+	if (a>=0)
+	{	
 	double xn = 1.0;  
 	double xn1 = 2.0;
 
@@ -45,6 +47,9 @@ double squareroot(double a)
 		else if ( a == 1 ) xn1 = 1;
 			else if ( a == 0 ) xn1 = 0;
 	return xn1;
+	}
+	else
+		return false;
 }
 double absolut(double a)
 {	
